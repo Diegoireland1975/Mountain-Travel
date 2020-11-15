@@ -15,6 +15,7 @@ body {
 
 button {
   border: none;
+  display: inline-block;
 }
 
 a {
