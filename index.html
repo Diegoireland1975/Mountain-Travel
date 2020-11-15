@@ -139,9 +139,14 @@
           while you're hiking through the mountains. We have tons of that.
         </p>
         <div class="border"></div>
-        <form method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
           <input type="email" placeholder="Email" required />
-          <a href="#" class="btn" type="submit">Subscribe Now</a>
+          <a href="#" class="btn" type="submit" value="Send">Subscribe Now</a>
         </form>
       </div>
     </section>
